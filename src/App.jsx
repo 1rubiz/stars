@@ -14,7 +14,7 @@ function App() {
 
   return (
     <BrowserRouter>
-    <div className='bg-[black] w-[100%] min-h-screen overflow-hidden overflow-y-scroll'>
+    <div className='bg-[black] max-w-[100%] h-screen overflow-y-hidden overflow-x-auto'>
       <Nav/>
       <div className='max-h-[88svh] pt-[14vh] overflow-scroll'>
       <Routes>
